@@ -1,0 +1,354 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}*
+
+.jumbotron {
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+       text-decoration: none;
+       list-style: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header {
+    background-image: linear-gradient(
+       rgba(0,0,0,0.7),
+       rgba(0,0,0,0.7)),
+       url(images/mtto1.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu .navar ul li {
+    position: relative;
+    float: left;
+}
+.menu .navar ul li a {
+    font-size: 13px;
+    padding: 17px;
+    color: #fffdfc;
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navar ul li a:hover{ /*Color del mause cuando pasa*/
+    color: #7b7775;
+}
+
+#menu {
+    display: none;
+}
+.menu-icono {
+    width: 52px;
+    position: absolute;
+    top: 1;
+    left: 0;
+    
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    text-align: center;
+}
+.header-content h1{
+    font-size: 70px;
+    line-height: 80px;
+    color: #f9fafc;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.header-content p {
+    font-size: 16px;
+    color: #c5c5c5;
+    padding: 0 250px;
+    margin-bottom: 25px; 
+}
+
+.btn-1{
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #6e6a68;
+    color: #f9fafc;
+    text-transform: uppercase;
+}
+
+.btn-1:hover {
+    background-color: #ab9f9a;
+}
+/*...........................HEADER.................................*/
+
+.reservar-mantenimiento {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #e0dcdc;
+}
+.reservar-mantenimiento-img{
+    position: absolute;
+    top: 1;
+    right: 0;
+}
+.reservar-mantenimiento-content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+.txt-p {
+    font-size: 16px;
+    color: #6e6a68;
+    padding: 0 250px;
+    margin: 35px;
+}
+/*baner 1..............................*/
+.reservar-mantenimiento-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.reservar-mantenimiento-1{
+    padding: 0 25px;
+}/*......................Margen entre baners...........*/
+.reservar-mantenimiento-1 img{
+    width: 240px;
+}
+.reservar-mantenimiento.img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/*baner 2..............................*/
+.reservar-mantenimiento-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.reservar-mantenimiento-2 img{
+    width: 230px;
+}
+.reservar-mantenimiento.img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/*baner 3..............................*/
+.reservar-mantenimiento-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.reservar-mantenimiento-3 img{
+    width: 250px;
+}
+.reservar-mantenimiento.img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/*baner terminados........................*/
+
+.reservar-mantenimiento-1 h3{
+    color: #222223;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.reservar-mantenimiento-2 h3{
+    color: #222223;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.reservar-mantenimiento-3 h3{
+    color: #222223;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.tienda{
+    background-image: linear-gradient(
+       rgba(0,0,0,0.7),
+       rgba(0,0,0,0.7)),
+       url(images/mtto1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px 0;
+
+}
+.tienda-content {
+    color: #f9fafc;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.tienda-content h2{
+    font-size: 70px;
+    line-height: 80px;
+    color: #f9fafc;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.tienda-content h3{
+    font-size: 40px;
+    line-height: 50px;
+    color: #f9fafc;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.tienda-content p {
+    font-size: 16px;
+    color: #c5c5c5;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+.direccion{
+    background: #1f1f1f;
+    position: relative;
+
+}
+.direccion-group {
+    font-size: 10px;
+    line-height: 50px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: right;
+    padding: 0 5px;
+    position: absolute;
+
+}
+.direccion-group-box {
+    font-size: 10px;
+    line-height: 50px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: right;
+    padding: 0 5px;
+    position: relative;
+
+}
+
+/* para mobil*/
+
+@media (max-width: 800px){
+    .header-content {
+        margin-top: 6rem !important;
+        width: 100% ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+
+    }
+
+    .title {
+        margin: 0 !important;
+        font-size: 3.5rem !important;
+    }
+    
+    .title-paragraph {
+        padding: 0 !important;
+    }
+
+    .title-btn {
+        margin-bottom: 1rem;
+    }
+
+    .navar ul{
+        margin-top: 0rem !important;
+        width: 100% ;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+    .menu-icono{
+        margin-top: 6%;
+        margin-left: 2%;
+    }
+    .reservar-mantenimiento-img{
+        justify-content: right;
+        width: 6rem;
+        top: 34rem;
+    }
+    .reservar-mantenimiento-content{
+        justify-content: center;
+    }
+    .txt-h2{
+        justify-content: center;
+        display:contents;
+        width: 30rem;
+      }
+
+      .txt-p{
+        display: contents;
+        width: 40rem;
+        justify-content: center;
+      }
+
+    .reservar-mantenimiento-group{
+        display: list-item;
+    }
+    .banner{
+        width: 23rem;
+    }
+    .text-p1{
+        width: 50rem;
+        justify-content: center;
+        display: contents;
+    }
+    .text-h3{
+        background-color: #1f1f1f;
+    }
+    .btn-1 {
+        justify-content: center;
+    }
+    .tienda-content a{
+        width: 15rem;
+        display: list-item;     
+    }
+    .direccion-group{
+        top: 1rem;
+        width: 23rem;
+        justify-content: center;
+    }
+
+
+
+
+}

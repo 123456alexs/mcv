@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}*
+
+.jumbotron {
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+       text-decoration: none;
+       list-style: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header3 {
+    background-image: linear-gradient(
+       rgba(0,0,0,0.7),
+       rgba(0,0,0,0.7)),
+       url(images/mtto1.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu3 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu3 .navar ul li {
+    position: relative;
+    float: left;
+}
+.menu3 .navar ul li a {
+    font-size: 13px;
+    padding: 17px;
+    color: #fffdfc;
+    display: block;
+    font-weight: 600;
+}
+
+.menu3 .navar ul li a:hover{ /*Color del mause cuando pasa*/
+    color: #7b7775;
+}
+
+#menu3 {
+    display: none;
+}
+.menu3-icono {
+    width: 52px;
+    position: absolute;
+    top: 1;
+    left: 0;
+    
+}
+
+.menu3 label{
+    cursor: pointer;
+    display: none;
+}
+
+.header3-content {
+    text-align: center;
+}
+.header3-content h1{
+    font-size: 70px;
+    line-height: 80px;
+    color: #f9fafc;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.header3-content p {
+    font-size: 16px;
+    color: #c5c5c5;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+/*-...................HEADER.................*/
+
+.contacto{
+    color: #ffffff;
+    padding: 10px;
+    background-color: #101010;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5%;
+    
+}
+
+.parrafo2{
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+    margin: 0 20px;
+}
+.parrafo4-txt{
+    color: #acacac;
+    text-align: center;
+    font-size: 15px;
+
+}
+.parrafo4{
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+    background-color: #101010;
+    
+}
+
+
+/*......................PIE PAGINA...................*/
+.direccion2{
+    background: #1f1f1f;
+    position: relative;
+
+}
+.direccion2-group {
+    font-size: 10px;
+    line-height: 50px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: right;
+    padding: 0 5px;
+    position: absolute;
+
+}
+.direccion2-group-box {
+    font-size: 10px;
+    line-height: 50px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: right;
+    padding: 0 5px;
+    position: relative;
+
+}
+@media (max-width: 800px){
+    .navar ul{
+      margin-top: 0rem !important;
+      width: 100% ;
+      display: flex;
+      justify-content: right;
+      align-items: center;
+    }
+    .menu3-icono{
+      margin-top: 6%;
+      margin-left: 2%;
+    }
+    .title3{
+        width: 1rem;
+        justify-content: center;
+        display:list-item;
+    }
+    .title3-paragraph{
+    width: 16rem;
+    justify-content: center;
+    display:contents;
+    }
+    .contacto{
+        width: 16rem;
+        justify-content: center;
+        display:contents;
+    }
+    .parrafo2 h2{
+        width: 80rem;
+        color: #101010;
+        justify-content: center;
+        display:contents;
+    }
+    .direccion2-group{
+        top: 1rem;
+        width: 23rem;
+        justify-content: center;
+    }
+    
+}

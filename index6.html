@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas Realizadas</title>
+    <link rel="stylesheet" href="style6.css">
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="http://127.0.0.1:5500/index.html" class="logo"><img src="images/menu.png" class="menu-icono alt="></a>
+            <input type="checkbox" id="menu"/>
+            <label for="menu">
+            </label>
+            <nav class="navar">
+                
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/index.html">Inicio</a></li>
+                    <li><a href="http://127.0.0.1:5500/index5.html">Reservar cita</a></li>
+                    <li><a href="https://tienda.mcvcommercial.com/">Tienda Online</a></li>
+                    <li><a href="http://127.0.0.1:5500/index3.html">Contacto</a></li>
+                    <li><a href="http://127.0.0.1:5500/index2.html#">Login ADM</a></li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+        <input type="button" value="Imprimir reserva" onclick="window.print()">
+  <main class="reserva">
+    <h1>Reservas</h1>
+    <p id="name">Nombre: </p><br>
+    <p id="fecha">Fecha: </p><br>
+    <p id="ci"> CI o Número de cliente: </p><br>
+    <p id="dir"> Dirección: </p><br>
+    <p id="chapa"> Chapa del Vehículo: </p><br>
+  </main>
+
+    <script src="reservas.js"></script>
+</body>
+</html>
